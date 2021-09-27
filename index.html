@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   </head>
+   <body>
+      <div class="nav">
+         <input type="checkbox" id="nav-check">
+         <div class="nav-header">
+            <div class="nav-title">
+               ADIL.
+            </div>
+         </div>
+         <div class="nav-btn">
+            <label for="nav-check">
+            <span></span>
+            <span></span>
+            <span></span>
+            </label>
+         </div>
+         <div class="nav-links">
+            <a href="#about" class="nav-item" onclick="closeNav()">About Me</a>
+            <a href="#contact" class="nav-item" onclick="closeNav()">Contact Me</a>
+            <a href="https://drive.google.com/file/d/1zVP4rBlot6Ep8pUFvPwxMXp-qO2Wvfmt/view" target="_blank" class="nav-item" onclick="closeNav()">My Resume</a>
+         </div>
+      </div>
+      <section class="main-container">
+         <div class="text">
+            <p>Hello</p>
+            <h1 class="hero-title">I'm MOHAMMAD <span>ADIL</span> SHAIK </h1>
+            <p class="hero-text">Being an ambitious person obsessed with the technology , I would like to indulge with the worthy learning opportunities and enhance my skills challenging myself in this creative world.
+               I am expecting to learn an impressive way to cope up with the failures and find one of the quickest ways to find a solution for the problems I will face in future .
+            </p>
+            <a href="#about"><button class="download-cv-btn">Know More</button></a> 
+         </div>
+         <div class="image">
+         </div>
+      </section>
+      <div id="about"></div>
+      <section class="about" >
+         <h1>About Me</h1>
+         <br>
+         <div class="about-inner">
+            <h2>A Video Designer & Web Developer </h2>
+            <p>I am an honest reliable student with a pleasant hope of becoming an efficient software developer contributing to the progress of the company I work for. I am grateful for all the support I have already and for I will have in future. For more personal and academic details of mine, I wish you to visit the following link below.</p>
+            <div class="about-container">
+               <div class="about-left">
+                  <p>Name            :</p>
+                  <p>Date of birth   :</p>
+                  <p>Address        :</p>
+                  <p>Email Address   :</p>
+                  <p>Phone           :</p>
+               </div>
+               <div class="about-right">
+                  <p>SHAIK MOHAMMAD ADIL</p>
+                  <p>August 24, 2001</p>
+                  <p>Kurnool , Andhra Pradesh</p>
+                  <a href="mailto:shaikadil019@gmail.com">
+                     <p>shaikadil019@gmail.com</p>
+                  </a>
+                  <p>+91 7382001610</p>
+               </div>
+            </div>
+         </div>
+         <a href="https://drive.google.com/file/d/1zVP4rBlot6Ep8pUFvPwxMXp-qO2Wvfmt/view" target="_blank"> <button class="resume-btn">My Resume </button></a>
+      </section>
+      <section class="contact" id="contact">
+         <h1>Contact</h1>
+         <form action="">
+            <input type="name" name="name" placeholder="Name">
+            <input type="email" class="email" placeholder="example@gmail.com">
+            <textarea name="" id="" class="message-input" placeholder="Type your message Here..."></textarea>
+            <button>Send</button>
+         </form>
+      </section>
+      <footer>
+         <a href=""><i class="fab fa-facebook-square"></i></a>
+         <a href=""><i class="fab fa-linkedin"></i></a>
+         <a href=""><i class="fab fa-github"></i></a>
+      </footer>
+      <script src="./script.js"></script>
+   </body>
+</html>
